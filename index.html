@@ -3,8 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>power ranger</title>
+
+    <!---style-tag--->
+    <!--- Boostraptag --->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <!--lobster font tag --->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+    <!-- so that i can overrride any boostrap default styling with my
+    customised properties here --->
+    <link rel="stylesheet" href="index.css"/>
+
   </head>
   <body>
+
+  <div class="container">
+  <h2>Table</h2>
+  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+  <table class="table table-hover" >
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Anna</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Debbie</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>John</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
     <h1>Hello World</h1>
     <h2>Hello World</h2>
     <h3>Hello World</h3>
@@ -12,6 +51,10 @@
     <h5>Hello World</h5>
 
     <img src="iceland.jpeg" width="800" height="500"/></br>
+
+    <!--- im trying to insert an image inside container1 using css file-->
+    <div class="container1">
+    Nicholas</div>
 
     <strong>HEY HEY</strong>
 
@@ -26,9 +69,15 @@
     </div>
 
     <!-- bullet -->
-    <p> Programming Languages </p>
+    <p id="june"> Programming Languages </p>
+    <p id="may">MAY</p>
     <!-- target="_blank" open the link in new tab --->
-    <a href="http://www.google.com" target="_blank">CLICK HERE FOR MORE INFORMATION</a>
+
+
+    <!--image link -->
+    <a href="http://www.google.com" target="_blank">
+      <img src="iceland.jpeg" width="300" height="300"/><</a>
+
     <ul>
         <li>Ruby</li>
         <li>Java</li>

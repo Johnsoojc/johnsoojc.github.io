@@ -1,0 +1,36 @@
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* This is class , so i use .(dot)*/
+.container1 {
+  background: yellow;
+  /*background :yellow url("ssy.png"); */
+
+  width: 400px;
+  height: 400px;
+  color: blue;
+
+  border-top: 5px solid green;
+  border-bottom: 5px dotted purple;
+  border-left: 5px solid red;
+  border-right: 5px solid blue;
+
+  padding: 200px 300px 300px 250px;
+  margin: 25px;
+
+}
+
+p[id]{
+  color: red;
+}
+
+p#june{
+  color: blue;
+  font-size: 100px;
+}
+
+h1:hover {
+  background: blue;
+  color: white;
+}
